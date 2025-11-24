@@ -1,1 +1,8 @@
+YAMAT reads from the three mitochondrial isolate samples were mapped to the mitogenome using BLAST. 
+The raw reads for these three files can be found at XXXX XXXX XXXX on genbank
+
+The mitogenome (and BLAST database) was the final assemby file (assembly-I5_edit_final.fa) generated from the Mitogenome_assembly pipeline. 
+
+Only YAMAT sequences with 2 or more reads were used in this analysis. After reads were BLASTED to the mitogenome, they were filtered 
+
 
