@@ -1,5 +1,5 @@
 YAMAT reads from the three mitochondrial isolate samples were mapped to the mitogenome using BLAST. 
-The raw reads for these three files can be found at XXXX XXXX XXXX on genbank
+The raw reads for the three mitochondrial isolate YAMAT replicates can be found at the sequence read archive (SRA) BioSample accession: SAMN53361679
 
 The mitogenome (and BLAST database) was the final assemby file (assembly-I5_edit_final.fa) generated from the Mitogenome_assembly pipeline. 
 
