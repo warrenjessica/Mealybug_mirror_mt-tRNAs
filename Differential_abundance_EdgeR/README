@@ -1,4 +1,5 @@
 EdgeR was used for differential abundance analysis was performed on the three mitochondrial isolations and the three total insects. Raw reads can be found at the sequence read archive (SRA):BioSample accession (SAMN53361679)
 
-Read counts per tRNA reference were generated was done with the yamat_blast_parse_v.4_strand.pl script found in the YAMAT_read_processing directory.  The counts for all mapped tRNA references used in this DE analysis can be found in the 75_strandcountmatrix_justTCME.txt file
+Read counts per tRNA reference were generated was done with the yamat_blast_parse_v.4_strand.pl script found in the YAMAT_read_processing directory. 
+The counts for all mapped tRNA references used in this DE analysis can be found in the 75_strandcountmatrix_justTCME.txt file.
 
