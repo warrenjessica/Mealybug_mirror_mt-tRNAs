@@ -7,3 +7,8 @@ Processed reads were BLASTed to the reference tRNA database (pcitri_db_update3.f
 
 Mapping of YAMAT reads to the reference tRNA database (pcitri_db_update3.fas) was done with the yamat_blast_parse_v.4_strand.pl script by parsing the BLAST output files. 
 
+The yamat_blast_parse_v.4_strand.pl script was called as follows: 
+
+perl yamat_blast_parse_v.4_strand.pl yamat_blast_summary.txt pcitri_db_update3.fas 1e-6 75_strand 0.75
+
+Only reads with greater than 75% a query coverage hit to a database tRNA were counted for mapping. 
