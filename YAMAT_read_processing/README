@@ -1,5 +1,4 @@
-All YAMAT reads can be downloaded from GenBank at (XXXXXX)
-
+All YAMAT reads can be downloaded from GenBank at the NCBI Sequence Read Archive (SRA):  SAMN53361679
 YAMAT reads are trimmed and merged with Read_processing.sh.
 The Read_processing.sh script also calls the count_CCA.pl and collapsed_fasta_to_freq_dist.pl scripts found in this directory. Idential reads are collapsed with the fastx_collapser from the FASTX-Toolkit (http://hannonlab.cshl.edu/fastx_toolkit/)
 
