@@ -1,7 +1,9 @@
 All YAMAT reads can be downloaded from GenBank at (XXXXXX)
 
-YAMAT reads are trimmed and merged with the Read_processing.sh script
+YAMAT reads are trimmed and merged with Read_processing.sh.
 The Read_processing.sh script also calls the count_CCA.pl and collapsed_fasta_to_freq_dist.pl scripts found in this directory. Idential reads are collapsed with the fastx_collapser from the FASTX-Toolkit (http://hannonlab.cshl.edu/fastx_toolkit/)
 
-Mapping of YAMAT reads to the reference tRNA database (pcitri_db_update3.fas) was done with the yamat_blast_parse_v.4_strand.pl script. 
+Processed reads were BLASTed to the reference tRNA database (pcitri_db_update3.fas) with blast.sh. 
+
+Mapping of YAMAT reads to the reference tRNA database (pcitri_db_update3.fas) was done with the yamat_blast_parse_v.4_strand.pl script by parsing the BLAST output files. 
 
