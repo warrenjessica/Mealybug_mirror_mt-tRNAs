@@ -12,3 +12,5 @@ The yamat_blast_parse_v.4_strand.pl script was called as follows:
 perl yamat_blast_parse_v.4_strand.pl yamat_blast_summary.txt pcitri_db_update3.fas 1e-6 75_strand 0.75
 
 Only reads with greater than 75% a query coverage hit to a database tRNA were counted for mapping. 
+
+The yamat_blast_parse_v.4_strand.pl script has multiple output files, including a count matrix of all reads that map to each reference, a count matrix of how many reads have equally good hits to multiple references (ties), and a summary file with all BLAST information for each hit.
