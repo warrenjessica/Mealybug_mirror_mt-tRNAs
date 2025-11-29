@@ -14,7 +14,9 @@ IsoSeq reads were trimmed using cutadapt (v5.1) and a custom python script (trim
 
 To extract IsoSeq reads originating from the mitogenome (and filter out nuclear, endosymbiotic, and NUMT sequences), BLAST was used to find reads with a high confidence hit to the assembled mitgenome (assembly_I5-EDIT_Final_cox1_start.fas) with the IsoSeq_mitogenome_BLAST.sh script.
 
+These high confidence mitogenome reads were extracted from the complete IsoSeq read files using the extract_reads.py script.
 
+Open reading frames were found in these extracted reads using getorf (EMBOSS:6.6.0.0). 
 
 
 
