@@ -12,7 +12,8 @@ SAMN53396480
 
 IsoSeq reads were trimmed using cutadapt (v5.1) and a custom python script (trim_polyA_sliding.py) with the isoseq_trim.sh script to remove poly-A tails.
 
-To extract IsoSeq reads from the mitogenome, BLAST was used to find reads with a high confidence hit to the assembled mitgenome (assembly_I5-EDIT_Final_cox1_start.fas) with the IsoSeq_mitogenome_BLAST.sh script.
+To extract IsoSeq reads originating from the mitogenome (and filter out nuclear, endosymbiotic, and NUMT sequences), BLAST was used to find reads with a high confidence hit to the assembled mitgenome (assembly_I5-EDIT_Final_cox1_start.fas) with the IsoSeq_mitogenome_BLAST.sh script.
+
 
 
 
