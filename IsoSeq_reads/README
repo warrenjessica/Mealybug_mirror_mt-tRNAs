@@ -1,6 +1,6 @@
 Isoseq reads were generated from bacteriome tissue and residual body tissue (insects with bacteriome removed) from P. citri. Total RNA was extracted with TRIzol using manufacturer's protocol.
 
-Bacteriomes were dissected from 
+IsoSeq libraries were created from two biological replicates from each tissue type (bacteriome and residual body).
 
 IsoSeq libraries were prepared using SMRTbell prep kit 3.0 (v02.2022). Pooled libraries underwent the PacBio binding and cleanup steps using the Revio Polymerase kit.
 
