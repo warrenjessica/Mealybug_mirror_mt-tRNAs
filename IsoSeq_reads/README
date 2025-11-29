@@ -10,7 +10,9 @@ SAMN53396482
 SAMN53396479
 SAMN53396480 
 
-IsoSeq reads were trimmed using 
+IsoSeq reads were trimmed using cutadapt (v5.1) and a custom python script (trim_polyA_sliding.py) with the isoseq_trim.sh script. 
+
+
 
 
 
