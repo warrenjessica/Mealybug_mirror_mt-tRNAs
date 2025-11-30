@@ -16,7 +16,7 @@ To extract IsoSeq reads originating from the mitogenome (and filter out nuclear,
 
 These high confidence mitogenome reads were extracted from the complete IsoSeq read files using the extract_reads.py script.
 
-Open reading frames were found in these extracted reads using getorf (EMBOSS:6.6.0.0). 
+Open reading frames were found in these reads using getorf (EMBOSS:6.6.0.0). 
 
 
 
