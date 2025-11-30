@@ -5,7 +5,7 @@ Workflow and data for mapping MSR-seq data to reference tRNA sequences and tabul
 tRNA_mapping.sh: Shell script with commands used for mapping. All scripts called within are from Ceriotti et al..
 
 
-Corallorhiza_ref_20240913.fas: reference sequences for Corallorhiza maculata organellar tRNAs and Arabidopsis nuclear tRNAs. 
+XXX.fas: reference sequences for  nuclear tRNAs. 
 
 
 TPM_and_CCA_plots.R: Script to read in files from the tRNA_read_counts directory and generate summary plots of mitochondrial and plastid MSR-seq reads (output in plots directory).
