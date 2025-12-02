@@ -1,1 +1,15 @@
+Mealybug_mitochondrial_tRNA_mirrors 
 
+Summary
+
+Analysis of the mitochondrial tRNAs in the citrus mealybug Planococcus citri based on full-length tRNA sequencing (YAMAT-seq), MSR-seq, mitoribosome tRNA-seq, and genomic DNA sequencing.
+
+The main workflow for read processing and analysis is in each respective experimental directory.
+
+Raw Data Availability
+
+Raw sequencing data can be found on NCBI SRA BioProject PRJNA1356551
+
+Reference
+
+Warren, JM, , Prasad, KVSK, Mendez, AM, Temnyk, S, Expression of four mitochondrial tRNAs from only two loci,  bioRxiv preprint
