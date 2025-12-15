@@ -3,6 +3,8 @@ The raw reads for the three mitochondrial isolate YAMAT replicates can be found 
 
 The mitogenome (and BLAST database) was the final assemby file (assembly-I5_edit_final.fa) generated from the Mitogenome_assembly pipeline. 
 
-Only YAMAT sequences with 2 or more reads were used in this analysis. After reads were BLASTED to the mitogenome, they were filtered 
+Only YAMAT sequences with 2 or more reads were used in this analysis. After reads were BLASTED to the mitogenome, they were filtered based on query_coverage > 95 & percent_identity > 95. 
+
+
 
 
