@@ -1,1 +1,8 @@
-The 
+The  blast_to_variants.v.03182019.pl script takes blast output and the corresponding query and database files in fasta format. 
+It parses the top hit (or hits if there are ties), realigns the sequences with a global aligner (mafft) and reports SNPs and
+indels.
+
+All collapsed reads (see YAMAT_read_processing) from the three mitochondrial isolation fracions were BLASTed (e-value of e-6, -dust no) 
+to the combined nuclear, mitochondrial, and endosymbiotic tRNA database, and used for the input of the modification index script (above). 
+
+
