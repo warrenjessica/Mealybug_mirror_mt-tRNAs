@@ -2,10 +2,6 @@ MSR-seq read processing
 
 Workflow and data for mapping MSR-seq data to reference tRNA sequences and tabulating read counts based on whether they have intact CCA tails.
 
-tRNA_mapping.sh: Shell script with commands used for mapping. All scripts called within are from Ceriotti et al..
-
-
-XXX.fas: reference sequences for  nuclear tRNAs. 
-
+tRNA_mapping.sh: Shell script with commands used for mapping. All scripts called within are from Ceriotti et al. 2025
 
 TPM_and_CCA_plots.R: Script to read in files from the tRNA_read_counts directory and generate summary plots of mitochondrial and plastid MSR-seq reads (output in plots directory).
